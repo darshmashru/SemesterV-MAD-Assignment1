@@ -7,6 +7,19 @@
     android:background="@color/appbg"
     tools:context=".MoonPhotosPage">
 
+    <Button
+        android:id="@+id/backButtonPage2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="goBack"
+        android:text="@string/Backbuttontext"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.049"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.023" />
+
     <ImageView
         android:id="@+id/imageView2"
         android:layout_width="164dp"
@@ -26,7 +39,7 @@
         android:layout_height="40dp"
         android:layout_marginBottom="444dp"
         android:fontFamily="sans-serif-black"
-        android:text="Here are the images of the moon: "
+        android:text="@string/aboveImageText"
         android:textSize="22sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -51,29 +64,30 @@
                 android:id="@+id/moonimage1"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:src="@tools:sample/avatars"
-                app:srcCompat="@drawable/img1" />
+                android:src="@drawable/img1"
+                android:adjustViewBounds="true" />
 
             <ImageView
                 android:id="@+id/moonImage2"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:src="@tools:sample/avatars"
-                app:srcCompat="@drawable/img2" />
+                android:src="@drawable/img2"
+                android:adjustViewBounds="true" />
 
             <ImageView
                 android:id="@+id/moonImage3"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:src="@tools:sample/avatars"
-                app:srcCompat="@drawable/img3" />
+                android:src="@drawable/img3"
+                android:adjustViewBounds="true" />
 
             <ImageView
                 android:id="@+id/moonImage4"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:src="@tools:sample/avatars"
-                app:srcCompat="@drawable/img4" />
+                android:src="@drawable/img4"
+                android:adjustViewBounds="true" />
+
         </LinearLayout>
     </ScrollView>
 
