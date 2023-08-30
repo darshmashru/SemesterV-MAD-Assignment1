@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">MAD Assignment 1</string>
+    <string name="welcome_text">Welcome to ISRO\'s Mobile App!</string>
+    <string name="nextPageButtonText">Click here to view images of the moon!</string>
+    <string name="homepage_text">Chandrayaan-3 Mission: \'India🇮🇳, I reached my destination and you too!\' : Chandrayaan-3 Chandrayaan-3 has successfully soft-landed on the moon 🌖!. Congratulations, India🇮🇳!</string>
+</resources>
