@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@color/appbg"
+    android:background="@color/black"
     tools:context=".MainActivity">
 
     <TextView
@@ -13,6 +13,7 @@
         android:layout_height="205dp"
         android:fontFamily="sans-serif-black"
         android:text="@string/homepage_text"
+        android:textColor="#FFEBEE"
         android:textSize="24sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -28,6 +29,7 @@
         android:layout_marginBottom="436dp"
         android:fontFamily="sans-serif-black"
         android:text="@string/welcome_text"
+        android:textColor="#FFEBEE"
         android:textSize="24sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
